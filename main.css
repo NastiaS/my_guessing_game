@@ -1,0 +1,71 @@
+h1 {
+	font-family: 'Open Sans', sans-serif;
+  color: #003333;
+  margin: 15px 0;
+  font-size: 2.75em;
+  line-height: 0.8em;
+  text-align: center;
+}
+
+h2 {
+	font-family: 'Lobster', sans-serif;
+    text-align: center;
+    margin-right: 50px;
+    color: black;
+    font-size: 1.9em;
+    }
+
+h3 {
+  text-align: center;
+}
+
+body {
+background: url(img/color.jpg); 
+background-size: cover;
+}
+
+#temp_indicator {
+  font-size: 2.5em;
+  margin-top: 50px;
+  margin-left: 20px;
+  text-align: center;
+}
+
+#advice{
+  font-size: 2em;
+  text-align: center;
+}
+
+#align {
+  margin-top: 50px;
+}
+#ready {
+	white-space: normal;
+  margin-top: 30px;
+  margin-left: 50px;
+  max-width: 100%;
+    
+}
+
+#two_buttons{
+  margin-top: 50px;
+  margin-left: 90px;
+}
+
+#another {
+	white-space: normal;
+  margin-top: 30px;
+  margin-left: 130px;
+
+}
+#text {
+	font-family: 'Lobster', sans-serif;
+  color: #003333;
+  margin: 15px 0;
+  font-size: 1.4em;
+  line-height: 1.8em;
+  text-align: center;
+}
+.img-responsive {
+	border-radius: 30%;
+}

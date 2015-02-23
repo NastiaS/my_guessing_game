@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset='utf-8'>
+    <title>Guessing game</title>
+    <link href='http://fonts.googleapis.com/css?family=Lobster|Open+Sans:600italic,700italic,400,600' rel='stylesheet' type='text/css'>
+	<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<link rel="stylesheet" href="main.css">
+</head>
+<body>
+	<div class="container">
+		<header class="page-header">
+			<h1>Guessing Game</h1>
+		</header>
+
+			<div class="row">
+				<div class="col-xs-4">
+					<h2>Make your guess</h2>
+					<img class="img-responsive" src="img/comp.jpg">
+					<a id="ready" class="btn btn-success btn-responsive">Ready to start? Click here!</a>
+				</div>
+
+				<div class="col-xs-4">
+					<div class="row">
+						<p id="text">When you are ready type in your guess into the box below</p>
+					</div>
+
+					<input id="id" type="text" class="form-control" placeholder="Numbers from 1-100">
+					
+						<div class="row">
+							<a id="another" class="btn btn-primary btn-xs btn-responsive" href="#">Submit your guess</a>
+						</div>
+
+					<h3 id="guess_count">5 Guesses remaining</h3>
+
+						<div class="row" id="two_buttons">
+		 					<button class="btn btn-sm btn-responsive" id="reset_the_game">Play again!</button>
+  							<button class="btn btn-sm btn-responsive" id="hint">I want a hint!</button>
+						</div>
+
+				</div>
+
+				<div class="col-xs-4">
+					<p id="temp_indicator"></p>
+					<p id="advice"></p>
+				</div>
+			</div>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src='game.js'></script>
+
+</body>
+</html>
